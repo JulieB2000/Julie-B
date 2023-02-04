@@ -1,0 +1,64 @@
+*{
+ box-sizing:border-box ;
+}
+
+/*font-family: 'Lato',
+sans-serif;
+
+font-family: 'Roboto',
+sans-serif;*/
+
+body{
+ font-family: 'Roboto', sans-serif;
+}
+
+h3{
+ font-family: 'Lato',
+  sans-serif; ;
+}
+
+#main{
+ display: grid;
+ grid-template-columns: 70% 30%;
+ grid-gap: -220px;
+ margin: auto 120px 50px 120px;
+ height: 100%;
+ 
+}
+
+.main-head{
+ font-size: 30px;
+ width: 95%;
+}
+
+.divider{
+border-bottom: 4px double black;
+ width: 75% ;
+ margin-top: -25px;
+ margin-bottom: 80px;
+}
+
+span{
+ font-weight: bold;
+}
+ 
+
+
+.a{
+display: inline;
+}
+
+li{
+ padding-bottom: 5px ;
+}
+
+.content{
+ width: 95%;
+ text-align: justify;
+ 
+}
+
+.sidebar{
+ width: 95%;
+
+}
