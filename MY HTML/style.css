@@ -1,12 +1,7 @@
 *{
- box-sizing:border-box ;
+ box-sizing:border-box ; 
 }
 
-/*font-family: 'Lato',
-sans-serif;
-
-font-family: 'Roboto',
-sans-serif;*/
 
 body{
  font-family: 'Roboto', sans-serif;
@@ -14,26 +9,26 @@ body{
 
 h3{
  font-family: 'Lato',
-  sans-serif; ;
+  sans-serif; 
 }
 
 #main{
  display: grid;
  grid-template-columns: 70% 30%;
- grid-gap: -220px;
- margin: auto 120px 50px 120px;
+ grid-gap: -80%;
+ margin: auto; 
  height: 100%;
- 
+ max-width: 90%;
 }
 
 .main-head{
  font-size: 30px;
- width: 95%;
+ max-width: 95%;
 }
 
 .divider{
 border-bottom: 4px double black;
- width: 75% ;
+ width: 94% ;
  margin-top: -25px;
  margin-bottom: 80px;
 }
@@ -53,12 +48,13 @@ li{
 }
 
 .content{
- width: 95%;
+ width: ;
  text-align: justify;
- 
+ max-width: 70%;
+ margin-left: 
 }
 
 .sidebar{
- width: 95%;
-
+max-width: 90%;
+margin-left:-75px;
 }
