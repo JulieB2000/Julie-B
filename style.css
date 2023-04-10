@@ -5,56 +5,93 @@
 
 body{
  font-family: 'Roboto', sans-serif;
+}* {
+  box-sizing: border-box;
 }
 
-h3{
- font-family: 'Lato',
-  sans-serif; 
+
+body {
+  font-family: "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-sans;
 }
 
-#main{
- display: grid;
- grid-template-columns: 70% 30%;
- grid-gap: -80%;
- margin: auto; 
- height: 100%;
- max-width: 90%;
+h3 {
+  font-family: "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-sans;
 }
 
-.main-head{
- font-size: 30px;
- max-width: 95%;
+#main {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: -80%;
+  margin: auto;
+  height: 100%;
+  max-width: 90%;
 }
 
-.divider{
-border-bottom: 4px double black;
- width: 94% ;
- margin-top: -25px;
- margin-bottom: 80px;
+.main-head {
+  font-size: 30px;
+  max-width: 95%;
 }
 
-span{
- font-weight: bold;
-}
- 
-
-
-.a{
-display: inline;
+.divider {
+  border-bottom: 4px double black;
+  width: 94%;
+  margin-top: -25px;
+  margin-bottom: 80px;
 }
 
-li{
- padding-bottom: 5px ;
+span {
+  font-weight: bold;
 }
 
-.content{
- width: ;
- text-align: justify;
- max-width: 70%;
- margin-left: 
+
+.a {
+  display: inline;
 }
 
-.sidebar{
-max-width: 90%;
-margin-left:-75px;
+li {
+  padding-bottom: 5px;
+}
+
+.content {
+  text-align: justify;
+  max-width: 70%;
+}
+
+.sidebar {
+  max-width: 90%;
+  margin-left: -75px;
+}
+
+
+.projects h3{
+  margin-top: 70px;
+}
+
+a {
+  font-size: 18px;
+}
+
+ol{
+  font-weight: bold;
+}
+
+
+.projects p{
+  margin-left: 2rem;
 }

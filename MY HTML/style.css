@@ -4,12 +4,27 @@
 
 
 body{
- font-family: 'Roboto', sans-serif;
+ font-family: "Segoe UI",
+  "Roboto",
+  "Oxygen",
+  "Ubuntu",
+  "Cantarell",
+  "Fira Sans",
+  "Droid Sans",
+  "Helvetica Neue",
+  sans-sans;
 }
 
 h3{
- font-family: 'Lato',
-  sans-serif; 
+ font-family:"Segoe UI",
+  "Roboto",
+  "Oxygen",
+  "Ubuntu",
+  "Cantarell",
+  "Fira Sans",
+  "Droid Sans",
+  "Helvetica Neue",
+  sans-sans;
 }
 
 #main{
@@ -38,7 +53,6 @@ span{
 }
  
 
-
 .a{
 display: inline;
 }
@@ -48,13 +62,21 @@ li{
 }
 
 .content{
- width: ;
  text-align: justify;
  max-width: 70%;
- margin-left: 
 }
 
 .sidebar{
 max-width: 90%;
 margin-left:-75px;
+}
+
+
+.projects {
+color: red;
+}
+
+a{
+  text-decoration: none;
+  font-size: 30px;
 }
